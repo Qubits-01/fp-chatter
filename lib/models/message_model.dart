@@ -2,8 +2,8 @@ import 'user_model.dart';
 
 class Message {
   final User sender;
-  final String
-      time; // Would usually be type DateTime or Firebase Timestamp in producation apps.
+  // Would usually be type DateTime or Firebase Timestamp in producation apps.
+  final String time;
   final String text;
   final bool isLiked;
   final bool unread;
